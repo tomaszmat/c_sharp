@@ -1,0 +1,8 @@
+
+liczba=244
+string wynik
+while(liczba):
+    wynik=(liczba%2?"1":"0")+wynik
+    liczba/=2
+    
+    liczba

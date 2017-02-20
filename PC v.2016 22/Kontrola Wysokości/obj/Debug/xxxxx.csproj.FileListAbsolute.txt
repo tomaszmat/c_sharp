@@ -1,0 +1,36 @@
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\bin\Debug\xxxxx.exe.config
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\bin\Debug\xxxxx.exe
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\bin\Debug\xxxxx.pdb
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.Properties.Resources.resources
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.exe
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.pdb
+C:\Users\bluemann\Desktop\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.FormMain.resources
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\bin\Debug\xxxxx.exe.config
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.exe
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.pdb
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\bin\Debug\xxxxx.exe
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\bin\Debug\xxxxx.pdb
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.FormMain.resources
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.Properties.Resources.resources
+C:\Users\bluemann\Documents\pulpit\xxxxxx\xxxxx\xxxxx\obj\Debug\xxxxx.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\bin\Debug\xxxxx.exe.config
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\obj\Debug\xxxxx.exe
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\obj\Debug\xxxxx.pdb
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\bin\Debug\xxxxx.exe
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\bin\Debug\xxxxx.pdb
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\obj\Debug\xxxxx.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\obj\Debug\xxxxx.FormMain.resources
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\obj\Debug\xxxxx.Properties.Resources.resources
+C:\Users\bluemann\Desktop\Nowy folder\xxxxx\xxxxx\obj\Debug\xxxxx.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\xxxxx.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\xxxxx.FormMain.resources
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\xxxxx.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\bin\Debug\Kontrola Jakości.exe.config
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\bin\Debug\Kontrola Jakości.exe
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\bin\Debug\Kontrola Jakości.pdb
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\control_tm.Properties.Resources.resources
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\Kontrola Jakości.exe
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\Kontrola Jakości.pdb

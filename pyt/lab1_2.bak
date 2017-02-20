@@ -1,0 +1,5 @@
+import sys,os,wx
+a=int (raw_input("Podaj liczbe a= "))
+b=int (raw_input("Podaj liczbe b= "))
+print a, "+", b, "=", a+b
+

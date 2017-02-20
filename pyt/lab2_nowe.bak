@@ -1,0 +1,16 @@
+using namespace std;
+
+int main() {
+
+ int liczba;
+ cin >> liczba;
+ 
+ string wynik;
+ 
+ while(liczba){
+  wynik = (liczba%2?"1":"0") + wynik;
+  liczba /= 2;
+ }
+ cout << wynik;
+
+ return 0;

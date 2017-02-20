@@ -1,0 +1,17 @@
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\bin\Debug\Kontrola wysokości.exe.config
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\bin\Debug\Kontrola wysokości.exe
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\bin\Debug\Kontrola wysokości.pdb
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\xxxxx.FormMain.resources
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\control_tm.Properties.Resources.resources
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\Kontrola wysokości.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\Kontrola wysokości.exe
+C:\Users\bluemann\Desktop\tasma selekcyjna\PC\xxxxx\obj\Debug\Kontrola wysokości.pdb
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\bin\Debug\Kontrola wysokości.exe.config
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\obj\Debug\Kontrola wysokości.exe
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\obj\Debug\Kontrola wysokości.pdb
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\obj\Debug\Kontrola wysokości.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\obj\Debug\control.FormMain.resources
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\obj\Debug\control_tm.Properties.Resources.resources
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\obj\Debug\Kontrola wysokości.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\bin\Debug\Kontrola wysokości.exe
+C:\Users\bluemann\Desktop\PC v.2016\Kontrola Wysokości\bin\Debug\Kontrola wysokości.pdb

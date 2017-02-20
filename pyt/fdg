@@ -1,0 +1,13 @@
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+t=np.arange(8,52,1.0)
+
+s=2**(-t)
+
+line=plt.plot(t,s,lw=2)
+
+plt.ylim(s.min(),s.max())
+plt.yscale("log")
+plt.show()
