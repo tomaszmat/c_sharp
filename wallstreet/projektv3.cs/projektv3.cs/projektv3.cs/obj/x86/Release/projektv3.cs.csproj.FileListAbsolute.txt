@@ -1,0 +1,26 @@
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\bin\Release\projektv3.cs.exe
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\bin\Release\projektv3.cs.pdb
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\bin\Release\itextsharp.dll
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\bin\Release\itextsharp.pdfa.dll
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\bin\Release\itextsharp.xtra.dll
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\bin\Release\itextsharp.xml
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\FormHello.cs.Warrings.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\ThreadsTimer.FormGraph.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\ThreadsTimer.FormInterest.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\ThreadsTimer.FormRegister.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\FormHello.cs.Properties.Resources.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.csproj.GenerateResource.Cache
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.exe
+C:\Users\tomek\documents\visual studio 2010\Projects\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.pdb
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\bin\Release\projektv3.cs.exe
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\bin\Release\projektv3.cs.pdb
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\FormHello.cs.Warrings.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\ThreadsTimer.FormGraph.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\ThreadsTimer.FormInterest.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\ThreadsTimer.FormRegister.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\FormHello.cs.Properties.Resources.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\FormHello.cs.View.FormUserList.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.exe
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.pdb
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Release\projektv3.cs.csprojResolveAssemblyReference.cache

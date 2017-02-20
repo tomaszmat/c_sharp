@@ -1,0 +1,28 @@
+c:\users\bluemann\documents\visual studio 2015\Projects\PPZM\obj\Debug\PPZM.csprojResolveAssemblyReference.cache
+c:\users\bluemann\documents\visual studio 2015\Projects\PPZM\obj\Debug\PPZM.FormMain.resources
+c:\users\bluemann\documents\visual studio 2015\Projects\PPZM\obj\Debug\PPZM.Properties.Resources.resources
+c:\users\bluemann\documents\visual studio 2015\Projects\PPZM\obj\Debug\PPZM.csproj.GenerateResource.Cache
+c:\users\bluemann\documents\visual studio 2015\Projects\PPZM\obj\Debug\PPZM.csproj.ResolveComReference.cache
+C:\Users\Bluemann\Documents\Visual Studio 2015\Projects\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe.config
+C:\Users\Bluemann\Documents\Visual Studio 2015\Projects\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe
+C:\Users\Bluemann\Documents\Visual Studio 2015\Projects\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.pdb
+C:\Users\Bluemann\Documents\Visual Studio 2015\Projects\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe
+C:\Users\Bluemann\Documents\Visual Studio 2015\Projects\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.pdb
+H:\Visual Studio 2015\Projects\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe.config
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\PPZM.csproj.ResolveComReference.cache
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.pdb
+H:\Visual Studio 2015\Projects\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe
+H:\Visual Studio 2015\Projects\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.pdb
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\PPZM.csprojResolveAssemblyReference.cache
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\PPZM.FormMain.resources
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\PPZM.Properties.Resources.resources
+H:\Visual Studio 2015\Projects\PPZM\obj\Debug\PPZM.csproj.GenerateResource.Cache
+I:\pulpit\c# + VB gotowe klasy zwracajace\portfolio\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe.config
+I:\pulpit\c# + VB gotowe klasy zwracajace\portfolio\PPZM\obj\Debug\PPZM.csproj.ResolveComReference.cache
+I:\pulpit\c# + VB gotowe klasy zwracajace\portfolio\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe
+I:\pulpit\c# + VB gotowe klasy zwracajace\portfolio\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.pdb
+C:\Users\bluemann\Desktop\bluemann\c# + VB gotowe klasy zwracajace\portfolio\PPZM\bin\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe.config
+C:\Users\bluemann\Desktop\bluemann\c# + VB gotowe klasy zwracajace\portfolio\PPZM\obj\Debug\PPZM.csproj.ResolveComReference.cache
+C:\Users\bluemann\Desktop\bluemann\c# + VB gotowe klasy zwracajace\portfolio\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.exe
+C:\Users\bluemann\Desktop\bluemann\c# + VB gotowe klasy zwracajace\portfolio\PPZM\obj\Debug\2a. Obliczenia dla zespołu prowadnicy linowej.pdb

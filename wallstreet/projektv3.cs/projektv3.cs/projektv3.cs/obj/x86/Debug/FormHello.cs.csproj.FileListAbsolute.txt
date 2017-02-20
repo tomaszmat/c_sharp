@@ -1,0 +1,9 @@
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\ThreadsTimer.FormGraph.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\ThreadsTimer.FormInterest.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\ThreadsTimer.FormRegister.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\FormHello.cs.Properties.Resources.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\FormHello.cs.csproj.GenerateResource.Cache
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\bin\Debug\FormHello.cs.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\bin\Debug\FormHello.cs.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\FormHello.cs.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\FormHello.cs\obj\x86\Debug\FormHello.cs.pdb

@@ -1,0 +1,45 @@
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe.config
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.exe
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.pdb
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\graBiznesowa.cs.csprojResolveAssemblyReference.cache
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\ThreadsTimer.FormInterest.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\FormHello.cs.Properties.Resources.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\ThreadsTimer.FormRegister.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\FormHello.cs.View.FormUserList.resources
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\obj\x86\Debug\graBiznesowa.cs.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.pdb
+C:\Users\tomek\Desktop\projektv3.cs\projektv3.cs\bin\Debug\itextsharp.xml
+C:\Users\Toshiba\Desktop\lab4 - zadania domowe\pracaDomowaTomaszMatusiak\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe.config
+C:\Users\Toshiba\Desktop\lab4 - zadania domowe\pracaDomowaTomaszMatusiak\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.exe
+C:\Users\Toshiba\Desktop\lab4 - zadania domowe\pracaDomowaTomaszMatusiak\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab4 - zadania domowe\pracaDomowaTomaszMatusiak\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe.config
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab4 - zadania domowe\pracaDomowaTomaszMatusiak\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab4 - zadania domowe\pracaDomowaTomaszMatusiak\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.pdb
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe.config
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.exe
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.pdb
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.pdb
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\itextsharp.xml
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\graBiznesowa.cs.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\ThreadsTimer.FormInterest.resources
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\FormHello.cs.Properties.Resources.resources
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\ThreadsTimer.FormRegister.resources
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\FormHello.cs.View.FormUserList.resources
+C:\Users\bluemann\Desktop\code\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\graBiznesowa.cs.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe.config
+C:\Users\bluemann\Desktop\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.exe
+C:\Users\bluemann\Desktop\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.pdb
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe.config
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.exe
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\projektv3.cs.pdb
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.exe
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\projektv3.cs.pdb
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\bin\Debug\itextsharp.xml
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\graBiznesowa.cs.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\ThreadsTimer.FormInterest.resources
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\FormHello.cs.Properties.Resources.resources
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\ThreadsTimer.FormRegister.resources
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\FormHello.cs.View.FormUserList.resources
+C:\Users\bluemann\Desktop\c# + VB gotowe klasy zwracajace\portfolio\wallstreet\projektv3.cs\projektv3.cs\projektv3.cs\obj\x86\Debug\graBiznesowa.cs.csproj.GenerateResource.Cache
