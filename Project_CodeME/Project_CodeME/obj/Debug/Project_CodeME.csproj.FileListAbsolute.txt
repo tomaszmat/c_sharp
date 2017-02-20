@@ -1,0 +1,37 @@
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\bin\Debug\Project_CodeME.exe.config
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\bin\Debug\Project_CodeME.exe
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\bin\Debug\Project_CodeME.pdb
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.csprojResolveAssemblyReference.cache
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormChoice.resources
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.Properties.Resources.resources
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.csproj.GenerateResource.Cache
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.exe
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.pdb
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormMD.resources
+c:\users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormFib.resources
+C:\Users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormGenre.resources
+C:\Users\tomek\documents\visual studio 2015\Projects\Project_CodeME\Project_CodeME\obj\Debug\BlueHash.FormMT.resources
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.csprojResolveAssemblyReference.cache
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormGenre.resources
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormMD.resources
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormChoice.resources
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\BlueHash.FormMT.resources
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.Properties.Resources.resources
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\bin\Debug\CodeME.exe.config
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\bin\Debug\CodeME.exe
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\bin\Debug\CodeME.pdb
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\CodeME.exe
+C:\Users\tomek\Desktop\Project_CodeME\Project_CodeME\obj\Debug\CodeME.pdb
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\bin\Debug\CodeME.exe.config
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\CodeME.exe
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\CodeME.pdb
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\bin\Debug\CodeME.exe
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\bin\Debug\CodeME.pdb
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.csprojResolveAssemblyReference.cache
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormGenre.resources
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormMD.resources
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.FormChoice.resources
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\BlueHash.FormMT.resources
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.Properties.Resources.resources
+E:\08052015 pulpit\Project_CodeME\Project_CodeME\obj\Debug\Project_CodeME.csproj.GenerateResource.Cache
