@@ -1,0 +1,17 @@
+
+        private void timer1_Tick(object sender, EventArgs e)
+       {
+            czas++;
+     	    listBoxInterest.Items.Insert(0, czas.ToString());
+        	lock (blokada)
+        	{
+    			zmienna_nietykalna += 10;
+      		}
+		(lista_notowan.ElementAt(3))[1].value;
+            lista_notowan.Count
+            lista_notowan[0][0].value;
+///
+            for (int i = 1; i <3; i++)
+            {
+                listBoxInterest.Items.Add(lista_notowan[0][1].value);
+            }

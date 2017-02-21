@@ -1,0 +1,22 @@
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\bin\Debug\DatabaseTest2012-2.exe
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\bin\Debug\DatabaseTest2012-2.pdb
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012_2.FormDataShow.resources
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012_2.Properties.Resources.resources
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\Users\Toshiba\AppData\Local\Temporary Projects\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb
+C:\Users\Toshiba\Desktop\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\Users\Toshiba\Desktop\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2012-2\materiały\lab3 bazy danych\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2012-2\materiały\lab3 bazy danych\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\bin\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\bin\Debug\DatabaseTest2012-2.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012_2.FormDataShow.resources
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012_2.Properties.Resources.resources
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2014-1\materiały\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.csproj.GenerateResource.Cache
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb

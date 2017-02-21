@@ -1,0 +1,11 @@
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\bin\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\bin\Debug\DatabaseTest2012-2.pdb
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest.FormDataShow.resources
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest.Properties.Resources.resources
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest2012-2\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest.csproj.GenerateResource.Cache
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\dane\organizacje\KN Kredek\_projekty\CPC 2015-1\lab3 - przygotowania\DatabaseTest\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb
+C:\Users\tomek\Downloads\DatabaseTest\DatabaseTest\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.exe
+C:\Users\tomek\Downloads\DatabaseTest\DatabaseTest\DatabaseTest2012-2\obj\x86\Debug\DatabaseTest2012-2.pdb

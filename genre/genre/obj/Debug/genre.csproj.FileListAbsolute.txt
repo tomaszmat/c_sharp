@@ -1,0 +1,21 @@
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\bin\Debug\genre.exe.config
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\obj\Debug\genre.csprojResolveAssemblyReference.cache
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\obj\Debug\genre.Properties.Resources.resources
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\obj\Debug\genre.csproj.GenerateResource.Cache
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\bin\Debug\genre.exe
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\bin\Debug\genre.pdb
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\obj\Debug\genre.exe
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\obj\Debug\genre.pdb
+c:\users\blueman\documents\visual studio 2015\Projects\genre\genre\obj\Debug\genre.MainForm.resources
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\bin\Debug\genre.exe.config
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\obj\Debug\genre.exe
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\obj\Debug\genre.pdb
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\bin\Debug\genre.exe
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\bin\Debug\genre.pdb
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\obj\Debug\genre.csprojResolveAssemblyReference.cache
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\obj\Debug\genre.MainForm.resources
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\obj\Debug\genre.Properties.Resources.resources
+C:\Users\Bluemann\Desktop\dssadsad\genre\genre\obj\Debug\genre.csproj.GenerateResource.Cache
+I:\Lenono-Windows7\prg  me\pass breaker\genre\genre\bin\Debug\genre.exe.config
+I:\Lenono-Windows7\prg  me\pass breaker\genre\genre\obj\Debug\genre.exe
+I:\Lenono-Windows7\prg  me\pass breaker\genre\genre\obj\Debug\genre.pdb
