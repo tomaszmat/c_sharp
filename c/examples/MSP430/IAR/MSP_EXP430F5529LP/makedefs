@@ -1,0 +1,41 @@
+###### CHANGE LOCATION TO YOUR CODEGEN TOOLS INSTALL DIR. UNIX PATH (no backslashes) #######
+CODEGEN_INSTALL_DIR = c:/iar/430
+
+CC = "$(CODEGEN_INSTALL_DIR)/bin/icc430"
+LNK = "$(CODEGEN_INSTALL_DIR)/bin/xlink"
+
+XDC_INSTALL_DIR := c:/ti/xdctools_3_32_00_06_core
+TIRTOS_INSTALL_DIR := c:/ti/tirtos_msp43x_2_20_00_06
+TIDRIVERS_INSTALL_DIR := $(TIRTOS_INSTALL_DIR)/products/tidrivers_msp43x_2_20_00_08
+BIOS_INSTALL_DIR := $(TIRTOS_INSTALL_DIR)/products/bios_6_46_00_23
+UIA_INSTALL_DIR := $(TIRTOS_INSTALL_DIR)/products/uia_2_00_06_52
+MSP430DRIVERLIB_INSTALL_DIR ?= $(TIRTOS_INSTALL_DIR)/products/msp430_driverlib_2_70_01_01a
+
+TIRTOS_PACKAGES_DIR = $(TIRTOS_INSTALL_DIR)/packages
+TIDRIVERS_PACKAGES_DIR = $(TIDRIVERS_INSTALL_DIR)/packages
+BIOS_PACKAGES_DIR = $(BIOS_INSTALL_DIR)/packages
+UIA_PACKAGES_DIR = $(UIA_INSTALL_DIR)/packages
+
+XDCPATH = $(TIRTOS_PACKAGES_DIR);$(TIDRIVERS_PACKAGES_DIR);$(BIOS_PACKAGES_DIR);$(UIA_PACKAGES_DIR);
+
+CFLAGS = -Ic:/iar/430/inc -Ic:/iar/430/inc/dlib/c -I$(MSP430DRIVERLIB_INSTALL_DIR)/driverlib/MSP430F5xx_6xx -D__MSP430F5529__ -Dewarm -DMSP430WARE --dlib_config $(CODEGEN_INSTALL_DIR)/lib/dlib/dl430xlsfn.h --debug --silent --diag_suppress=Pa050,Go005
+
+LFLAGS = -C $(MSP430DRIVERLIB_INSTALL_DIR)/driverlib/MSP430F5xx_6xx/iar/MSP430F5529.r43 -D_STACK_SIZE=400 -D_DATA16_HEAP_SIZE=0 -D_DATA20_HEAP_SIZE=0 -C $(CODEGEN_INSTALL_DIR)/lib/dlib/dl430xlsfn.r43 -rt -s __program_start -f MSP_EXP430F5529LP.xcl -l $(NAME).map -S -xens -e_PrintfSmall=_Printf -e_ScanfSmall=_Scanf
+
+###################### SHOULD NOT MODIFY BELOW THIS LINE ############################
+export XDCPATH
+
+XDCTARGET = iar.targets.msp430.MSP430X_small
+PLATFORM = ti.platforms.msp430:MSP430F5529
+
+ifeq ("$(SHELL)","sh.exe")
+#For Windows
+        RMDIR  = -rmdir /S /Q
+        remove = -del $(subst /,\,$1)
+        pwd    = cd
+else
+#For Linux
+        RMDIR  = rm -rf
+        remove = rm -f $(subst /,\,$1)
+        pwd    = pwd
+endif

@@ -1,0 +1,9 @@
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\bin\Debug\connectingsql.exe.config
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\obj\Debug\connectingsql.csprojResolveAssemblyReference.cache
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\obj\Debug\connectingsql.Form1.resources
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\obj\Debug\connectingsql.Properties.Resources.resources
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\obj\Debug\connectingsql.csproj.GenerateResource.Cache
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\bin\Debug\connectingsql.exe
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\bin\Debug\connectingsql.pdb
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\obj\Debug\connectingsql.exe
+c:\users\bluemann\documents\visual studio 2015\Projects\connectingsql\connectingsql\obj\Debug\connectingsql.pdb

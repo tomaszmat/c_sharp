@@ -1,0 +1,41 @@
+###### CHANGE LOCATION TO YOUR CODEGEN TOOLS INSTALL DIR. UNIX PATH (no backslashes) #######
+CODEGEN_INSTALL_DIR = c:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS
+
+CC = "$(CODEGEN_INSTALL_DIR)/bin/cl430"
+LNK = "$(CODEGEN_INSTALL_DIR)/bin/cl430"
+
+XDC_INSTALL_DIR := c:/ti/xdctools_3_32_00_06_core
+TIRTOS_INSTALL_DIR := c:/ti/tirtos_msp43x_2_20_00_06
+TIDRIVERS_INSTALL_DIR := $(TIRTOS_INSTALL_DIR)/products/tidrivers_msp43x_2_20_00_08
+BIOS_INSTALL_DIR := $(TIRTOS_INSTALL_DIR)/products/bios_6_46_00_23
+UIA_INSTALL_DIR := $(TIRTOS_INSTALL_DIR)/products/uia_2_00_06_52
+MSP430DRIVERLIB_INSTALL_DIR ?= $(TIRTOS_INSTALL_DIR)/products/msp430_driverlib_2_70_01_01a
+
+TIRTOS_PACKAGES_DIR = $(TIRTOS_INSTALL_DIR)/packages
+TIDRIVERS_PACKAGES_DIR = $(TIDRIVERS_INSTALL_DIR)/packages
+BIOS_PACKAGES_DIR = $(BIOS_INSTALL_DIR)/packages
+UIA_PACKAGES_DIR = $(UIA_INSTALL_DIR)/packages
+
+XDCPATH = $(TIRTOS_PACKAGES_DIR);$(TIDRIVERS_PACKAGES_DIR);$(BIOS_PACKAGES_DIR);$(UIA_PACKAGES_DIR);
+
+CFLAGS = -Ic:/ti/ccsv6/ccs_base/msp430/include -I$(MSP430DRIVERLIB_INSTALL_DIR)/driverlib/MSP430FR5xx_6xx -D__MSP430FR6989__ --use_hw_mpy=F5 --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -D_MPU_ENABLE -Dccs -DMSP430WARE -vmspx --abi=eabi --data_model=restricted -g --display_error_number --diag_warning=255 --diag_wrap=off
+
+LFLAGS = -l$(MSP430DRIVERLIB_INSTALL_DIR)/driverlib/MSP430FR5xx_6xx/ccs/MSP430FR6989.lib -ic:/ti/ccsv6/ccs_base/msp430/include MSP_EXP430FR6989.cmd -m$(NAME).map -ic:/ti/ccsv6/ccs_base/msp430/include/../lib/5xx_6xx_FRxx -llibmath.a -ic:/ti/ccsv6/ccs_base/msp430/include/../lib/FR59xx -llibmpu_init.a --warn_sections --display_error_number --diag_wrap=off --rom_model -i$(CODEGEN_INSTALL_DIR)/lib -llibc.a
+
+###################### SHOULD NOT MODIFY BELOW THIS LINE ############################
+export XDCPATH
+
+XDCTARGET = ti.targets.msp430.elf.MSP430X
+PLATFORM = ti.platforms.msp430:MSP430FR6989
+
+ifeq ("$(SHELL)","sh.exe")
+#For Windows
+        RMDIR  = -rmdir /S /Q
+        remove = -del $(subst /,\,$1)
+        pwd    = cd
+else
+#For Linux
+        RMDIR  = rm -rf
+        remove = rm -f $(subst /,\,$1)
+        pwd    = pwd
+endif

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<iarUserArgVars>
+  <group active="true" name="tirtos_msp43x_2_20_00_06">
+    <variable>
+      <name>XDCPATH</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/packages;c:/ti/tirtos_msp43x_2_20_00_06/products/tidrivers_msp43x_2_20_00_08/packages;c:/ti/tirtos_msp43x_2_20_00_06/products/bios_6_46_00_23/packages;c:/ti/tirtos_msp43x_2_20_00_06/products/uia_2_00_06_52/packages</value>
+    </variable>
+    <variable>
+      <name>XDCROOT</name>
+      <value>c:/ti/xdctools_3_32_00_06_core</value>
+    </variable>
+    <variable>
+      <name>TIRTOS</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/packages</value>
+    </variable>
+    <variable>
+      <name>TIDRIVERS</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/tidrivers_msp43x_2_20_00_08/packages</value>
+    </variable>
+    <variable>
+      <name>BIOS</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/bios_6_46_00_23/packages</value>
+    </variable>
+    <variable>
+      <name>UIA</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/uia_2_00_06_52/packages</value>
+    </variable>
+    <variable>
+      <name>MSP430DRIVERLIB</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/msp430_driverlib_2_70_01_01a</value>
+    </variable>
+    <variable>
+      <name>MSP432DRIVERLIB</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/msp432_driverlib_3_21_00_05</value>
+    </variable>
+    <variable>
+      <name>MSP430GRLIB</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/msp430_grlib_2_00_00_17</value>
+    </variable>
+    <variable>
+      <name>MSP430USBLIB</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/products/msp430_usblib_5_00_01</value>
+    </variable>
+    <variable>
+      <name>EXAMPLE_ROOT</name>
+      <value>c:/ti/tirtos_msp43x_2_20_00_06/examples/MSP430/IAR</value>
+    </variable>
+  </group>
+</iarUserArgVars>
