@@ -1,0 +1,16 @@
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Debug\NORTHWND.MDF
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Debug\NORTHWND_log.ldf
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Debug\tomaszMatusiakLab4.exe.config
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Debug\tomaszMatusiakLab4.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Debug\tomaszMatusiakLab4.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.Properties.Resources.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.csproj.GenerateResource.Cache
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.FormMain.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\tomaszMatusiakLab4\tomaszMatusiakLab4\bin\Debug\tomaszMatusiakLab4.exe.config
+C:\Users\tomek\documents\visual studio 2010\Projects\tomaszMatusiakLab4\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.exe
+C:\Users\tomek\documents\visual studio 2010\Projects\tomaszMatusiakLab4\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.pdb
+I:\c#\visual projects 05-08-2015  save\Visual Studio 2010\Projects\tomaszMatusiakLab4\tomaszMatusiakLab4\bin\Debug\tomaszMatusiakLab4.exe.config
+I:\c#\visual projects 05-08-2015  save\Visual Studio 2010\Projects\tomaszMatusiakLab4\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.exe
+I:\c#\visual projects 05-08-2015  save\Visual Studio 2010\Projects\tomaszMatusiakLab4\tomaszMatusiakLab4\obj\x86\Debug\tomaszMatusiakLab4.pdb

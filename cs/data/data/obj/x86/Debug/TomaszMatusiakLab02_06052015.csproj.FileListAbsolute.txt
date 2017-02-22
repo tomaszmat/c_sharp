@@ -1,0 +1,43 @@
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormMain.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.Properties.Resources.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csproj.GenerateResource.Cache
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormMain.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.Properties.Resources.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormMain.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.Properties.Resources.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormAutoReg.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormInfo.resources
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\bin\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormAutoReg.resources
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormInfo.resources
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormMain.resources
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.Properties.Resources.resources
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\Desktop\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csprojResolveAssemblyReference.cache
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.exe
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.pdb
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csprojResolveAssemblyReference.cache
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormAutoReg.resources
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormInfo.resources
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.FormMain.resources
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.Properties.Resources.resources
+G:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.csproj.GenerateResource.Cache
+I:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.exe
+I:\c#\Nowy folder (3)\TomaszMatusiakLab02Praca domowa\TomaszMatusiakLab02_06052015\obj\x86\Debug\TomaszMatusiakLab02_06052015.pdb

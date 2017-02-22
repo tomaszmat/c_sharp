@@ -1,0 +1,15 @@
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\bin\Debug\TomaszMatusiakPracaDomowa.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\bin\Debug\TomaszMatusiakPracaDomowa.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.FormHello.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.Properties.Resources.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.csproj.GenerateResource.Cache
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.FormMain.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.FormShow.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.View.FormShowAnotherView.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.View.FormShowLastView.resources
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakPracaDomowa\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.exe
+C:\Users\tomek\documents\visual studio 2010\Projects\TomaszMatusiakPracaDomowa\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.pdb
+I:\c#\visual projects 05-08-2015  save\Visual Studio 2010\Projects\TomaszMatusiakPracaDomowa\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.exe
+I:\c#\visual projects 05-08-2015  save\Visual Studio 2010\Projects\TomaszMatusiakPracaDomowa\TomaszMatusiakPracaDomowa\obj\x86\Debug\TomaszMatusiakPracaDomowa.pdb

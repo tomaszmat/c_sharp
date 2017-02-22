@@ -1,0 +1,27 @@
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\bin\Debug\kalkulator.exe
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\bin\Debug\kalkulator.pdb
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\kalkulator.Form1.resources
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\kalkulator.Properties.Resources.resources
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\kalkulator.exe
+C:\Documents and Settings\Student\Moje dokumenty\197117\c#\kalkulator\kalkulator\obj\x86\Debug\kalkulator.pdb
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.exe
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.pdb
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\bin\Debug\kalkulator.exe
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\bin\Debug\kalkulator.pdb
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.Properties.Resources.resources
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.FormCaluclator.resources
+C:\Users\tomek\Desktop\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.csprojResolveAssemblyReference.cache
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.exe
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.pdb
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.csprojResolveAssemblyReference.cache
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.FormCaluclator.resources
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.Properties.Resources.resources
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\bin\Debug\kalkulator.exe
+C:\Users\tomek\Desktop\c#\kalkulator\kalkulator\kalkulator\bin\Debug\kalkulator.pdb
+G:\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.exe
+G:\c#\kalkulator\kalkulator\kalkulator\obj\x86\Debug\kalkulator.pdb

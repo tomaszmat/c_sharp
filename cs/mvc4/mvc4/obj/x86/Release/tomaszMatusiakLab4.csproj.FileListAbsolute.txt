@@ -1,0 +1,10 @@
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Release\tomaszMatusiakLab4.Properties.Resources.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Release\tomaszMatusiakLab4.FormMain.resources
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Release\tomaszMatusiakLab4.csproj.GenerateResource.Cache
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Release\NORTHWND.MDF
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Release\NORTHWND_log.ldf
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Release\tomaszMatusiakLab4.exe.config
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Release\tomaszMatusiakLab4.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\bin\Release\tomaszMatusiakLab4.pdb
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Release\tomaszMatusiakLab4.exe
+C:\Users\tomek\AppData\Local\Temporary Projects\tomaszMatusiakLab4\obj\x86\Release\tomaszMatusiakLab4.pdb

@@ -1,0 +1,25 @@
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.exe
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.pdb
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.Form1.resources
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.Properties.Resources.resources
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.exe
+c:\users\leszek\documents\visual studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.pdb
+C:\Users\Leszek\Documents\Visual Studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\NORTHWND.MDF
+C:\Users\Leszek\Documents\Visual Studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\NORTHWND_log.ldf
+C:\Users\Leszek\Documents\Visual Studio 2010\Projects\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.exe.config
+C:\Users\Toshiba\Desktop\zadania lab4 czwartek\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.exe.config
+C:\Users\Toshiba\Desktop\zadania lab4 czwartek\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.exe
+C:\Users\Toshiba\Desktop\zadania lab4 czwartek\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.pdb
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.exe.config
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.exe
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.pdb
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\NORTHWND.MDF
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\NORTHWND_log.ldf
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.exe
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\bin\Debug\LeszekStasiak_lab4_zad0.pdb
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.Form1.resources
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.Properties.Resources.resources
+C:\Users\tomek\Downloads\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\LeszekStasiak_lab4_zad0\obj\x86\Debug\LeszekStasiak_lab4_zad0.csproj.GenerateResource.Cache

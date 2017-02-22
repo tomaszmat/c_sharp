@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="cfc4d10a-0fad-476e-8d7e-48d527df20d4" absoluteBounds="0.5, 0.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DataClasses1DataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5316f49-530f-424a-90e8-7d44b906d485" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee512486-96fd-4c27-8c68-cccc9d72d66a" absoluteBounds="5, 0.875, 2, 3.1170068359375">
+      <DataClassMoniker Name="/DataClasses1DataContext/Supplier" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4635e08-206d-40d5-84c6-da0301ecb342" absoluteBounds="5.0150000000000006, 1.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5 : 1.34375); (3.25 : 1.34375); (3.25 : 0.96875); (2.5 : 0.96875)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Supplier/Supplier_Product" />
+      <nodes>
+        <classShapeMoniker Id="ee512486-96fd-4c27-8c68-cccc9d72d66a" />
+        <classShapeMoniker Id="cfc4d10a-0fad-476e-8d7e-48d527df20d4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="490c3614-d2f3-4c78-9775-19e8e1593f61" absoluteBounds="2.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6adec736-c703-4117-ba96-2b071d3fc956" absoluteBounds="2.515, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.53125 : 2.07859537760417); (3.53125 : 2.65550017447917); (2.5 : 2.65550017447917)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Category/Category_Product" />
+      <nodes>
+        <classShapeMoniker Id="490c3614-d2f3-4c78-9775-19e8e1593f61" />
+        <classShapeMoniker Id="cfc4d10a-0fad-476e-8d7e-48d527df20d4" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,9 @@
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\bin\Release\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\bin\Release\TomaszMatusiakLab02_06052015.pdb
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.FormAutoReg.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.FormInfo.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.FormMain.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.Properties.Resources.resources
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.csproj.GenerateResource.Cache
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.exe
+C:\Users\tomek\Desktop\TomaszMatusiakLab02_06052015\TomaszMatusiakLab02_06052015\obj\x86\Release\TomaszMatusiakLab02_06052015.pdb
