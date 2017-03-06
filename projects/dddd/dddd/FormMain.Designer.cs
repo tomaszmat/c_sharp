@@ -60,9 +60,7 @@
             this.panelSets = new System.Windows.Forms.Panel();
             this.buttonRefresh = new System.Windows.Forms.Button();
             this.buttonDiscon = new System.Windows.Forms.Button();
-            this.zedGraphControlGraph = new ZedGraph.ZedGraphControl();
             this.zedGraphControlGraph2 = new ZedGraph.ZedGraphControl();
-            this.zedGraphControlGraph3 = new ZedGraph.ZedGraphControl();
             this.timerGraph = new System.Windows.Forms.Timer(this.components);
             this.panelValues.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
@@ -390,26 +388,12 @@
             this.buttonDiscon.UseVisualStyleBackColor = false;
             this.buttonDiscon.Click += new System.EventHandler(this.buttonDiscon_Click);
             // 
-            // zedGraphControlGraph
-            // 
-            this.zedGraphControlGraph.Location = new System.Drawing.Point(6, 227);
-            this.zedGraphControlGraph.Name = "zedGraphControlGraph";
-            this.zedGraphControlGraph.Size = new System.Drawing.Size(654, 230);
-            this.zedGraphControlGraph.TabIndex = 16;
-            // 
             // zedGraphControlGraph2
             // 
             this.zedGraphControlGraph2.Location = new System.Drawing.Point(6, 450);
             this.zedGraphControlGraph2.Name = "zedGraphControlGraph2";
             this.zedGraphControlGraph2.Size = new System.Drawing.Size(654, 230);
             this.zedGraphControlGraph2.TabIndex = 17;
-            // 
-            // zedGraphControlGraph3
-            // 
-            this.zedGraphControlGraph3.Location = new System.Drawing.Point(6, 7);
-            this.zedGraphControlGraph3.Name = "zedGraphControlGraph3";
-            this.zedGraphControlGraph3.Size = new System.Drawing.Size(654, 230);
-            this.zedGraphControlGraph3.TabIndex = 18;
             // 
             // timerGraph
             // 
@@ -422,9 +406,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(890, 685);
-            this.Controls.Add(this.zedGraphControlGraph3);
             this.Controls.Add(this.zedGraphControlGraph2);
-            this.Controls.Add(this.zedGraphControlGraph);
             this.Controls.Add(this.panelSets);
             this.Controls.Add(this.panelButtons);
             this.Controls.Add(this.panel2);
@@ -466,9 +448,7 @@
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.Button buttonOpenExcel;
         private System.Windows.Forms.Button buttonShow;
-        private ZedGraph.ZedGraphControl zedGraphControlGraph;
         private ZedGraph.ZedGraphControl zedGraphControlGraph2;
-        private ZedGraph.ZedGraphControl zedGraphControlGraph3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonDiscon;
         private System.Windows.Forms.Label label9;
