@@ -1,0 +1,13 @@
+c:\users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\dddd.csprojResolveAssemblyReference.cache
+c:\users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\dddd.csproj.GenerateResource.Cache
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\Interop.Microsoft.Vbe.Interop.Forms.dll
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\Interop.MsmMergeTypeLib.dll
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\dddd.csproj.ResolveComReference.cache
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\bin\Debug\ZedGraphControl.dll
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\bin\Debug\Pomiarek 1.0.exe.config
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\bin\Debug\Pomiarek 1.0.exe
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\bin\Debug\Pomiarek 1.0.pdb
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\pomiarek.Properties.Resources.resources
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\Pomiarek 1.0.exe
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\Pomiarek 1.0.pdb
+C:\Users\bluemann\documents\visual studio 2015\Projects\dddd\dddd\obj\Debug\dddd.FormMain.resources

@@ -1,0 +1,13 @@
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\RadioTerminal.csprojResolveAssemblyReference.cache
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\Interop.Microsoft.Vbe.Interop.Forms.dll
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\Interop.MsmMergeTypeLib.dll
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\RadioTerminal.csproj.ResolveComReference.cache
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\pomiarek.Properties.Resources.resources
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\RadioTerminal.csproj.GenerateResource.Cache
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\Pomiarek 1.0.exe
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\Pomiarek 1.0.pdb
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\bin\Debug\Pomiarek 1.0.exe.config
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\bin\Debug\Pomiarek 1.0.exe
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\bin\Debug\Pomiarek 1.0.pdb
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\RadioTerminal.FormBegin.resources
+C:\Users\bluemann\Desktop\files\projects\dddd - Kopia\dddd\obj\Debug\RadioTerminal.FormCommunication.resources

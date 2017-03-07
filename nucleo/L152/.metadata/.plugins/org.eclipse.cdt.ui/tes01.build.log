@@ -1,0 +1,15 @@
+19:48:43 **** Incremental Build of configuration Debug for project tes01 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MCU GCC Compiler'
+C:\Users\bluemann\Desktop\nucleo\L152\tes01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -DSTM32L1 -DSTM32L152RETx -DNUCLEO_L152RE -DSTM32 -DDEBUG -DUSE_STDPERIPH_DRIVER -DSTM32L1XX_XL -I"C:/Users/bluemann/Desktop/nucleo/L152/tes01/inc" -I"C:/Users/bluemann/Desktop/nucleo/L152/tes01/CMSIS/core" -I"C:/Users/bluemann/Desktop/nucleo/L152/tes01/CMSIS/device" -I"C:/Users/bluemann/Desktop/nucleo/L152/tes01/StdPeriph_Driver/inc" -I"C:/Users/bluemann/Desktop/nucleo/L152/tes01/Utilities" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:24:28: error: 'RCC_APB2Periph_GPIOA' undeclared (first use in this function)
+     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE); // uruchomienie zegara modulu GPIO
+                            ^
+../src/main.c:24:28: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] Error 1
+
+19:48:44 Build Finished (took 591ms)
+

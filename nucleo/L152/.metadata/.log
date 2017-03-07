@@ -1,0 +1,23 @@
+!SESSION 2017-02-26 19:35:20.026 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-26 19:35:53.710
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bluemann'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY fr.ac6.mcu.ide 1 1 2017-02-26 19:35:53.715
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-26 19:37:11.702
+!MESSAGE Indexed 'tes01' (31 sources, 32 headers) in 2,78 sec: 4 458 declarations; 14 784 references; 10 unresolved inclusions; 17 syntax errors; 5 153 unresolved names (21%)
+
+!ENTRY fr.ac6.mcu.externaltools 4 0 2017-02-26 19:41:08.444
+!MESSAGE getFlasherLocation() usage is deprecated
