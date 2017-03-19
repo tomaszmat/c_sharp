@@ -1,0 +1,66 @@
+struct t_command
+{
+	char *cmd;
+	void (*function)(void);
+}str;
+
+const struct t_command commands[] =
+{
+	{"help", cmd_help},
+	{"leds_on", cmd_leds_on},
+	{"leds_off", cmd_leds_off},
+	{NULL, NULL}
+}
+
+
+str.function(&str); // wywolanie
+
+void function(struct komendy)
+{
+	switch(komendt.cmd)
+	{
+		case cmd_help:
+			break;
+		default:
+			break;
+	}
+
+	
+}
+
+
+str.function = &func;
+
+void cmd_help()
+{
+	send_str("help-pomoc\r\n");
+	send_str("leds_on - wlacza diody\r\n");
+	send_str("leds_off - wylacza diody\r\n");
+}
+
+
+byte buf[100] = {0};
+int idx = 0;
+
+
+
+
+ISR UART
+{
+	byte s = SCI0SR1;
+	byte d = SCI0DRL;
+	SCI0DRL = d;
+	
+	if(d >= ' ')
+	{
+		buf[idx] = d;
+		idx++;
+		buf[idx] = '\0';
+	}
+	if( d == 13)
+{ if(buf[0] != '\0')
+cmd((char*)buf);
+idx = 0;
+buf[0] = '\0';
+
+}
