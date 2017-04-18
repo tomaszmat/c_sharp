@@ -1,0 +1,136 @@
+*** EVALUATION ***
+ANSI-C/cC++ Compiler for HC12 V-5.0.41 Build 10203, Jul 23 2010
+
+    1:  #include "PE_Types.h"
+    2:  #include "IO_Map.h"
+    3:  
+    4:  #include "ne64config.h"
+    5:  #include "ne64driver.h"
+    6:  #include "addresses.h"
+    7:  
+    8:  #include "leds.h"
+    9:  #include "utils.h"
+   10:  
+   11:  
+   12:  
+   13:  typedef union uMCHASHUnion
+   14:    {
+   15:    uint16_t Word[4];         // Multicast Hash Table bits 63 to 0
+   16:    uint8_t Byte[8];
+   17:    }tMCHASHStr;
+   18:  
+   19:  typedef union uMACADUnion
+   20:  {
+   21:    uint16_t Word[3];         // MAC Address bits 47 to 0 
+   22:    uint8_t Byte[6];
+   23:  } tMACADStr;
+   24:  
+   25:  #define RAM_START 0x2000    /**< RAM block starting address */
+   26:  
+   27:  uint8_t emacFIFOa[ETH_BUFFER_SIZE] @ RAM_START;                         //< Emac RX buffer A definition
+   28:  uint8_t emacFIFOb[ETH_BUFFER_SIZE] @ (RAM_START + ETH_BUFFER_SIZE);          //< Emac RX buffer B definition
+   29:  uint8_t emacFIFOtx[ETH_BUFFER_SIZE] @ (RAM_START + 2*ETH_BUFFER_SIZE);       //< Emac TX buffer definition
+   30:  
+   31:  //uint16_t gotxflowc;	//Global Variable For Determination of Flow Control Packets are sent in Full Duplex
+   32:  volatile uint8_t	gotlink;    //Global Variable For Determination if link is active (1=active)
+   33:  
+   34:  //Initialize Ethernet ISRs
+   35:  
+   36:  void EtherInitISRs(void){
+*** EVALUATION ***
+
+Function: EtherInitISRs
+Source  : Q:\CW-projects\ne64base_multitest_with_Eth_03\CODE\ne64driver.c
+Options : -CPUHCS12 -D__NO_FLOAT__ -Env"GENPATH=Q:\CW-projects\ne64base_multitest_with_Eth_03;Q:\CW-projects\ne64base_multitest_with_Eth_03\bin;Q:\CW-projects\ne64base_multitest_with_Eth_03\prm;Q:\CW-projects\ne64base_multitest_with_Eth_03\cmd;Q:\CW-projects\ne64base_multitest_with_Eth_03\Sources;Q:\Program Files (x86)\Freescale\CWS12v5.1\lib\HC12c\lib;Q:\Program Files (x86)\Freescale\CWS12v5.1\lib\HC12c\src;Q:\CW-projects\ne64base_multitest_with_Eth_03\CODE;Q:\CW-projects\ne64base_multitest_with_Eth_03\DOC;Q:\Program Files (x86)\Freescale\CWS12v5.1\lib\HC12c\include" -Env"LIBPATH=Q:\Program Files (x86)\Freescale\CWS12v5.1\lib\HC12c\include" -EnvOBJPATH=Q:\CW-projects\ne64base_multitest_with_Eth_03\bin -EnvTEXTPATH=Q:\CW-projects\ne64base_multitest_with_Eth_03\bin -Lasm=Q:\CW-projects\ne64base_multitest_with_Eth_03\Project_2_Data\Standard\ObjectCode\ne64driver.c.o.lst -Mb -ObjN=Q:\CW-projects\ne64base_multitest_with_Eth_03\Project_2_Data\Standard\ObjectCode\ne64driver.c.o -Oi=c0 -WmsgSd1106
+
+   37:    //Initialize custom ISR vectors for EMAC and EPHY. It is allowed only if ISR vectors table is placed in RAM.
+   38:  #if ISR_IN_FLASH
+   39:  #else  
+   40:    (void)Cpu_SetIntVect(16, emac_ec_isr);
+  0000 c610         [1]     LDAB  #16
+  0002 87           [1]     CLRA  
+  0003 3b           [2]     PSHD  
+  0004 ce0000       [2]     LDX   #LOW_PAGE(emac_ec_isr)
+  0007 c600         [1]     LDAB  #HIGH(emac_ec_isr)
+  0009 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   41:    (void)Cpu_SetIntVect(17, emac_lc_isr);
+  000d c611         [1]     LDAB  #17
+  000f 87           [1]     CLRA  
+  0010 6c80         [2]     STD   0,SP
+  0012 ce0000       [2]     LDX   #LOW_PAGE(emac_lc_isr)
+  0015 c600         [1]     LDAB  #HIGH(emac_lc_isr)
+  0017 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   42:    (void)Cpu_SetIntVect(18, emac_b_rx_error_isr);
+  001b c612         [1]     LDAB  #18
+  001d 87           [1]     CLRA  
+  001e 6c80         [2]     STD   0,SP
+  0020 ce0000       [2]     LDX   #LOW_PAGE(emac_b_rx_error_isr)
+  0023 c600         [1]     LDAB  #HIGH(emac_b_rx_error_isr)
+  0025 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   43:    (void)Cpu_SetIntVect(19, emac_rx_b_b_o_isr);
+  0029 c613         [1]     LDAB  #19
+  002b 87           [1]     CLRA  
+  002c 6c80         [2]     STD   0,SP
+  002e ce0000       [2]     LDX   #LOW_PAGE(emac_rx_b_b_o_isr)
+  0031 c600         [1]     LDAB  #HIGH(emac_rx_b_b_o_isr)
+  0033 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   44:    (void)Cpu_SetIntVect(20, emac_rx_b_a_o_isr);
+  0037 c614         [1]     LDAB  #20
+  0039 87           [1]     CLRA  
+  003a 6c80         [2]     STD   0,SP
+  003c ce0000       [2]     LDX   #LOW_PAGE(emac_rx_b_a_o_isr)
+  003f c600         [1]     LDAB  #HIGH(emac_rx_b_a_o_isr)
+  0041 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   45:    (void)Cpu_SetIntVect(21, emac_rx_error_isr);
+  0045 c615         [1]     LDAB  #21
+  0047 87           [1]     CLRA  
+  0048 6c80         [2]     STD   0,SP
+  004a ce0000       [2]     LDX   #LOW_PAGE(emac_rx_error_isr)
+  004d c600         [1]     LDAB  #HIGH(emac_rx_error_isr)
+  004f 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   46:    (void)Cpu_SetIntVect(22, emac_mii_mtc_isr);
+  0053 c616         [1]     LDAB  #22
+  0055 87           [1]     CLRA  
+  0056 6c80         [2]     STD   0,SP
+  0058 ce0000       [2]     LDX   #LOW_PAGE(emac_mii_mtc_isr)
+  005b c600         [1]     LDAB  #HIGH(emac_mii_mtc_isr)
+  005d 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   47:    (void)Cpu_SetIntVect(23, emac_rx_fc_isr);
+  0061 c617         [1]     LDAB  #23
+  0063 87           [1]     CLRA  
+  0064 6c80         [2]     STD   0,SP
+  0066 ce0000       [2]     LDX   #LOW_PAGE(emac_rx_fc_isr)
+  0069 c600         [1]     LDAB  #HIGH(emac_rx_fc_isr)
+  006b 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   48:    (void)Cpu_SetIntVect(24, emac_f_tx_c_isr);
+  006f c618         [1]     LDAB  #24
+  0071 87           [1]     CLRA  
+  0072 6c80         [2]     STD   0,SP
+  0074 ce0000       [2]     LDX   #LOW_PAGE(emac_f_tx_c_isr)
+  0077 c600         [1]     LDAB  #HIGH(emac_f_tx_c_isr)
+  0079 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   49:    (void)Cpu_SetIntVect(25, emac_rx_b_b_c_isr);
+  007d c619         [1]     LDAB  #25
+  007f 87           [1]     CLRA  
+  0080 6c80         [2]     STD   0,SP
+  0082 ce0000       [2]     LDX   #LOW_PAGE(emac_rx_b_b_c_isr)
+  0085 c600         [1]     LDAB  #HIGH(emac_rx_b_b_c_isr)
+  0087 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   50:    (void)Cpu_SetIntVect(26, emac_rx_b_a_c_isr);
+  008b c61a         [1]     LDAB  #26
+  008d 87           [1]     CLRA  
+  008e 6c80         [2]     STD   0,SP
+  0090 ce0000       [2]     LDX   #LOW_PAGE(emac_rx_b_a_c_isr)
+  0093 c600         [1]     LDAB  #HIGH(emac_rx_b_a_c_isr)
+  0095 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+   51:    (void)Cpu_SetIntVect(27, ephy_isr);  
+  0099 c61b         [1]     LDAB  #27
+  009b 87           [1]     CLRA  
+  009c 6c80         [2]     STD   0,SP
+  009e ce0000       [2]     LDX   #LOW_PAGE(ephy_isr)
+  00a1 c600         [1]     LDAB  #HIGH(ephy_isr)
+  00a3 4a000000     [7]     CALL  Cpu_SetIntVect,PAGE(Cpu_SetIntVect)
+  00a7 3a           [3]     PULD  
+   52:  #endif
+   53:  }
+  00a8 0a           [7]     RTC   

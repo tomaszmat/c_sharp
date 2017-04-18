@@ -1,0 +1,63 @@
+bledy linkery nie sa pokazywane,
+ spi - gdy opis, w tym samym czasi oczyt
+typowo 8 bitowe
+
+CPU - Master		RF - Slave
+[][][][][][][][] -> MOSI -> [][][][][][][][]  -
+						|
+		<--MISO	<--
+tykniecie zegara -> przesuwa sie wszystko o 1. czyli wychodzi zamiana miejsc rejestrów
+--------------> CLK------>
+NSS (slave select) = 0 na przesy³
+
+pelna predkosc lini uzyskana, nei tak jak w uart ze bit stopy itd
+ale dodatkowa linai sterujaca,
+w spi zawsze transakcja wiazana, ale dodatkowa linia steruj¹ca CLK
+
+[Master] procesor zarzqadza cala transmije
+
+w rfm7 slave selectem zajmuje sie biblitoeka
+
+
+#include "rfm7x.h"
+extern void RFM7x_CE( unsigned char v ) 
+{
+  rf_ce_PutVal(v);
+
+}
+
+extern void RFM7x_CSN( unsigned char v )
+{
+ rf_nss_PutVal(v);
+}
+
+
+extern void RFM7x_WAIT_MS (unsigned short ms) 
+{
+ Cpu_Delay100US(10*ms); 
+}
+
+extern unsigned char rfm7x_SPI_RW( unsigned char value )
+{
+ while(!SPISR_SPTEF){} //wait , dont use ';' , better {} to info comp that is intional waitstate
+  SPIDR = value;
+  while(!SPISR_SPIF){}
+  return SPIDR;
+}
+
+
+w mainie
+
+rfm7x_init(RFM73);  
+       
+       if(rfm7x_is_present())
+       {
+            // if radio is okay, send okay
+       } 
+       else 
+       {
+        
+       }
+
+
+dodanie modulu ethernetu

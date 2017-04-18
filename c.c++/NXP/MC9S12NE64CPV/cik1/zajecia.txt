@@ -1,0 +1,84 @@
+statyczna alkoacja pamieci triki
+
+
+char tmp[7000];
+
+
+char *a = tmp;
+int *b = (int*) tmp;
+
+trik i mozna zapsioywac int i chary
+b[0] = 0x88;
+b[0] = 0x7777;
+
+komorki tmp:
+[88][77][][][][][]
+
+const char* t = "abc";
+t++; dozowlone
+*t = 'x' niedpzw
+
+MC9s08QE4
+
+TSSop16
+SOIC16
+
+BDM - Backgorund Debug Module
+LPTMR
+
+
+Supply voltage/current
+Quiescent cur, leakage cur
+bronw-out vol lev
+static gdy zatrzymamy (zegary tez)/dyamic power consupmtion
+wakeup time
+perfomr
+
+w mniejszej  zmienieszaja sie grub izolacji, zjawisko tunelowania
+
+
+bramkowanie ukladu sygnalu zegarowego, zmiana f,
+ np flash 2 wolniej taktowania niz CPU
+
+
+for()
+{
+b[i],a[i] =0;
+}
+
+
+for()
+a[i] = 0;   <= memset() 
+
+for()
+b[i] = 0;
+
+
+
+#dfine F(arg) arg = 0;    to samo co inline uint8_t f(int *a)
+				{
+				*a = 0;t9
+					}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

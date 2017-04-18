@@ -1,0 +1,14 @@
+OPEN source 0 0 60 100
+Source < attributes TOOLTIP on,TOOLTIP_FORMAT signed,TOOLTIP_MODE details,FREEZE off,MARKS off
+OPEN procedure 60 0 28 17
+Procedure < attributes VALUES on,TYPES off
+OPEN data 60 17 29 22
+Data:1 < attributes SCOPE global,COMPLEMENT None,FORMAT Symb,MODE periodical,SORT NotSort,UPDATERATE 1,NAMEWIDTH 16
+OPEN data 60 39 29 32
+Data:2 < attributes SCOPE local,COMPLEMENT None,FORMAT Symb,MODE automatic,SORT NotSort,UPDATERATE 10,NAMEWIDTH 16
+OPEN Assembly 2 41 46 49 ;i
+Assembly < attributes ADR on,CODE off,ABSADR on,SYMB on,FORMAT Auto,FREEZE off,TOPPC 0x3D817E
+bckcolor 50331647
+font 'Courier New' 9 BLACK
+AUTOSIZE on
+ACTIVATE "Source" "Assembly" "Procedure" "Data:1" "Data:2"

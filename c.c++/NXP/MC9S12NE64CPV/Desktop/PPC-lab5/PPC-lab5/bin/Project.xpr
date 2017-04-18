@@ -1,0 +1,7 @@
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "board_settings"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "main_loop_counter"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "res"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "ss"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "terminal_buffer"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "terminal_buffer_len"
+Data:2 < ADDXPR ONLY_ADD_IF_NEW "x"
