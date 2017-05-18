@@ -1,0 +1,286 @@
+Function Macro_Acc_Start() As Integer
+With Application
+.ScreenUpdating = False
+.EnableEvents = False
+.Calculation = xlCalculationManual
+End With
+End Function
+
+Function Macro_Acc_Stop() As Integer
+With Application
+.ScreenUpdating = True
+.EnableEvents = True
+.Calculation = xlCalculationAutomatic
+End With
+End Function
+
+Sub main_calc()
+'
+' main_calc Makro
+'
+
+'Statics in sym
+' node obudowa
+Dim Cg As Double, Cao As Double ' for reading data from sheet 'main'
+Dim Qo As Double, Mo As Double, Foa As Double, Fog As Double
+
+' node adapter
+Dim Caz As Double, Cak As Double, Cpa As Double
+Dim Qa As Double, Ma As Double
+Dim Sa As Double
+Dim Faz As Double, Fak As Double, Fpaa As Double
+
+' node zwora
+Dim Czp As Double
+Dim Qz As Double, Mz As Double
+Dim Fzp As Double
+
+
+' Pop1 - Pop2
+Dim Fsp As Double
+'node popychacz2
+Dim Fpp2 As Double
+Dim Cpp As Double
+Dim Qp2 As Double, Mp2 As Double
+
+'node popychacz1
+Dim Cpk As Double
+Dim Fpk As Double, Fpp1 As Double
+Dim Qp1 As Double, Mp1 As Double
+Dim Sp As Double
+
+'node kulka
+Dim Mk As Double, Qk As Double
+
+Dim FeMAX As Double
+Dim Fe As Double
+Dim Vk1 As Double
+
+
+'Dynamics in sym
+' node obudowa
+Dim Uo As Double, Vo As Double, Ao As Double
+' node adapter
+Dim Ua As Double, Va As Double, Aa As Double
+' node zwora
+Dim Uz As Double, Vz As Double, Az As Double
+' node popychacz2
+Dim Up2 As Double, Vp2 As Double, Ap2 As Double
+' node popychacz1
+Dim Up1 As Double, Vp1 As Double, Ap1 As Double
+' node kulka
+Dim Uk As Double, Vk As Double, Ak As Double
+
+
+'Dynamic tab for results
+Dim tabOut() As Double
+
+'Iterations'
+Dim t As Double, dt As Double
+Dim i As Long, N As Long, kN As Long
+  
+With Arkusz1
+Mo = .Cells(7, 7)
+Ma = .Cells(4, 7)
+Mz = .Cells(3, 7)
+Mp2 = .Cells(6, 7)
+Mp1 = .Cells(5, 7)
+Mk = .Cells(8, 7)
+FeMAX = .Cells(24, 2)
+
+Cp = .Cells(15, 7)
+Cao = .Cells(9, 2) ' Cop
+Cop = 50000
+Caz = .Cells(3, 2) 'Cza
+Czp = .Cells(6, 2) ' Cp2z
+Cpp = .Cells(5, 2)
+Cpk = .Cells(7, 2) 'Ckp
+
+Cak = .Cells(7, 2)
+Cpa = .Cells(4, 2) ' Cap1
+
+Sp = .Cells(19, 2) 'L1
+Sa = .Cells(20, 2) 'L2
+Fsp = .Cells(23, 2) 'Fss
+
+'Calc Weight Forces
+Qo = 9.81  Mo
+Qa = 9.81  Ma
+Qz = 9.81  Mz
+Qp2 = 9.81  Mp2
+Qp1 = 9.81  Mp1
+Qk = 9.91  Mk
+
+
+dt = .Cells(24, 11) 'Integrator step
+N = .Cells(25, 11) 'Points on chart
+kN = .Cells(26, 11) 'Divider of steps
+
+End With
+
+'Change array size, all ZEROs
+ReDim Preserve tabOut(N - 1, 2)
+
+
+
+'Calc start vals
+        'Up = -(Qo + Qa + Qz + Qp1 + Qp2 + Qk)  Cpp
+        'Uo = -(Qo + Qa + Qz + Qp1 + Qp2 + Qk)  Cao + Up
+        'Ua = -(Qa + Qz + Qp1 + Qp2 + Qk)  Cao + Uo
+        'Uz = -(Qz + Qp2 + Fsp)  Caz + Ua
+        'Up2 = -(Qp2 + Fsp)  Czp + Uz
+        'Uk = -Qk  Cak + Ua
+        'Up1 = (Fsp - Qp1)  Cpk + Uk
+
+  Up = 0
+      Uo = 0
+       Ua = 0
+       Uz = 0
+       Up2 = 0
+        Uk = 0
+       Up1 = 0
+       
+Macro_Acc_Start
+'----------------Main Loop----------------'
+Do Until (i = N  kN) ' wyjœcie po N krokach
+
+If t  0.003 Then
+    Fe = 0
+    Else
+        If t = 0.006 Then
+        Fe = (t - 0.003)  (1  0.003)  FeMAX
+        Else
+            If t = 0.021 Then
+            Fe = FeMAX
+            Else
+            Fe = 0
+            End If
+        End If
+    End If
+
+'------- Calc Forces
+' Node obudowa
+           Fsp = -Cp  Up
+           If Fsp  0 Then Fsp = 0
+            
+                Fop = -Cop  (Uo - Up)
+                If Fop  0 Then Fao = 0
+                
+                Fao = -Cao  (Ua - Uo)
+            
+                Faz = -Caz  (Uz - Ua)
+                If Faz  0 Then Faz = 0
+            
+                Fzp = -Czp  (Up2 - Uz)
+                If Fzp  0 Then Fzp = 0
+            
+                Fpp = -Cpp  (Up1 - Up2 + Sp)
+                If Fpp  0 Then Fpp = 0
+            
+                Fak = -Cak  (Uk - Ua)
+                If Fak  0 Then Fak = 0
+                
+                Fpa = -Cap1  (-Up1 + Ua + Sa)
+                If Fpa  0 Then Fpa = 0
+            
+                Fpk = -Cpk  (Uk - Up1)
+                If Fpk  0 Then Fpk = 0
+
+
+
+Ao = (Fop - Qo - Fao)  Mo
+Aa = (Fao - Qa - Faz - Fak)  Ma
+Az = (Faz - Qz - Fzp + Fe)  Mz
+Ap2 = (Fzp - Qp2 - Fpp - Fsp)  Mp2
+Ap1 = (Fpp - Qp1 + Fsp - Fpk - Fpa)  Mp1
+
+'If t  0.075 Then
+Ak = -((Fpk + Fak - Fe)  Mk)
+'Else
+'Ak = Ak - Mk  1000  9.81
+'End If
+
+
+
+
+
+'------- Calc Veloc
+' Node obudowa
+Vo = Vo + Ao  dt
+'Node adapter
+Va = Va + Aa  dt
+' node zwora
+Vz = Vz + Az  dt
+' node popychacz2
+Vp2 = Vp2 + Ap2  dt
+' node popychacz1
+Vp1 = Vp1 + Ap1  dt
+' node kulka
+Vk1 = Vk
+Vk = Vk + Ak  dt
+
+'------- Calc Displac
+' Node obudowa
+Uo = (Uo + Vo  dt)
+'Node adapter
+Ua = (Ua + Va  dt)
+' node zwora
+Uz = (Uz + Vz  dt)
+' node popychacz2
+Up2 = (Up2 + Vp2  dt)
+' node popychacz1
+Up1 = (Up1 + Vp1  dt)
+' node kulka
+Uk = (Uk + Vk  dt)
+'------- Calc Time
+t = t + dt
+
+i = i + 1 'Increment loop
+
+With Arkusz4
+.Cells(i + 1, 1).Value = t
+.Cells(i + 1, 2).Value = Uo
+.Cells(i + 1, 3).Value = Ua
+.Cells(i + 1, 4).Value = Uz
+.Cells(i + 1, 5).Value = Up2
+.Cells(i + 1, 6).Value = Up1
+.Cells(i + 1, 7).Value = Uk
+
+.Cells(i + 1, 8).Value = Fe
+.Cells(i + 1, 9).Value = Ak
+
+.Cells(i + 1, 10).Value = Fpk
+.Cells(i + 1, 11).Value = Fak
+.Cells(i + 1, 12).Value = Vk
+
+
+End With
+Macro_Acc_Stop
+Loop
+'----------------END Loop----------------'
+With Arkusz4
+
+.Cells(1, 1).Value = Time
+.Cells(1, 2).Value = Uo
+.Cells(1, 3).Value = Ua
+.Cells(1, 4).Value = Uz
+.Cells(1, 5).Value = Up2
+.Cells(1, 6).Value = Up1
+.Cells(1, 7).Value = Uk
+
+.Cells(1, 8).Value = Fe
+.Cells(1, 9).Value = Ak
+.Cells(1, 10).Value = Fpk
+.Cells(1, 11).Value = Fak
+.Cells(1, 12).Value = Vk
+
+
+
+
+
+
+End With
+  
+  
+
+End Sub

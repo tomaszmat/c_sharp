@@ -1,0 +1,123 @@
+Option Explicit 'Uncomment if You Want see undeclared vars
+
+Function Macro_Acc_Start() As Integer
+With Application
+.ScreenUpdating = False
+.EnableEvents = False
+.Calculation = xlCalculationManual
+End With
+End Function
+
+Function Macro_Acc_Stop() As Integer
+With Application
+.ScreenUpdating = True
+.EnableEvents = True
+.Calculation = xlCalculationAutomatic
+End With
+End Function
+
+Sub Hamulec()
+'
+' hamulec
+'
+' Klawisz skrótu: Ctrl+j
+'
+    Dim m As Double
+    Dim Ca1, Ca2 As Double
+    Dim Ih, Ra As Double
+    Dim Fsa0 As Double
+    
+    Dim fi, fi0, figr, Ms, Mag, epsilon, omega, Ftk, Fsa, u, t, dt As Double
+    Dim Csa1, Csa2 As Double
+    
+    Dim i, N, NW, kN As Long
+    
+    With Arkusz1
+    
+        m = .Cells(4, 2)
+        
+        Ca1 = .Cells(5, 2)
+        Ca2 = .Cells(6, 2)
+        
+        Ih = .Cells(9, 2)
+        Ra = .Cells(10, 2)
+        
+        Fsa0 = .Cells(13, 2)
+        
+        NW = .Cells(16, 2)
+        kN = .Cells(19, 2)
+        dt = .Cells(20, 2)
+        
+        fi0 = .Cells(21, 2)
+        
+        N = NW * kN
+        
+        ReDim tabOut(N - 1, 7)
+        
+        Csa1 = Ca1 * Ra * Ra
+        Csa2 = Ca2 * Ra * Ra
+        
+        figr = .Cells(22, 2)
+        Mag = .Cells(8, 13)
+        
+        
+        
+        'wartoœci pocz¹tkowe
+        epsilon = 0
+        omega = 0
+        fi = -fi0
+      
+        
+        t = 0
+        i = 0
+        
+        Arkusz2.Cells(1, 11).Value = Now
+        Arkusz2.Cells(1, 12).Value = Second(Now)
+        Macro_Acc_Start
+        Do Until (i >= N)
+            
+            
+            'zmienna sztywnoœæ
+             If (Abs(fi) > figr) Then
+             Ms = Sgn(fi) * Mag + fi * 2 * Csa2
+             Else
+             Ms = fi * 2 * Csa1
+             End If
+            
+            
+            
+            'przyspieszenie k¹towe
+            epsilon = -Ms / (Ih * m)
+            
+            'prêdkoœæ k¹towa
+            omega = omega + epsilon * dt
+            
+            'k¹t
+            fi = fi + omega * dt
+            
+            t = t + dt
+            
+           
+            tabOut(i \ kN, 0) = t
+            tabOut(i \ kN, 1) = fi
+            tabOut(i \ kN, 2) = omega
+            tabOut(i \ kN, 3) = epsilon
+            tabOut(i \ kN, 4) = Ms
+            tabOut(i \ kN, 5) = Ftk
+            tabOut(i \ kN, 6) = Fsa
+            tabOut(i \ kN, 7) = u
+            
+            
+            
+            i = i + 1
+            
+        Loop
+        Macro_Acc_Stop
+        
+        Arkusz2.Range("a2:e" & (24 + NW - 1)) = tabOut
+        
+        Arkusz2.Cells(2, 11).Value = Now
+        Arkusz2.Cells(2, 12).Value = Second(Now)
+        
+    End With
+End Sub

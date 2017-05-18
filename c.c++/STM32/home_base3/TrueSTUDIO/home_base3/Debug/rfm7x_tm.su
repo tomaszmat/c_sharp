@@ -1,0 +1,4 @@
+rfm7x_tm.c:27:6:RFM7x_CE	0	static
+rfm7x_tm.c:37:6:RFM7x_CSN	0	static
+rfm7x_tm.c:48:6:RFM7x_WAIT_MS	0	static
+rfm7x_tm.c:59:15:rfm7x_SPI_RW	24	static

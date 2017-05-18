@@ -1,0 +1,43 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/Cpu.c" FileDate="2017-05-16, 20:34:22" FileAge="1494959662262" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2017-05-14, 19:39:45" FileAge="1494783585031" FileType="45637" />
+      <File Name="Generated_Code/rf_nss.h" FileDate="2017-05-14, 19:50:07" FileAge="1494784207013" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2017-05-14, 19:39:45" FileAge="1494783585023" FileType="45637" />
+      <File Name="Generated_Code/SPI.h" FileDate="2017-05-16, 17:56:45" FileAge="1494950205038" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/rf_ce.h" FileDate="2017-05-14, 19:50:07" FileAge="1494784207018" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/rf_nss.c" FileDate="2017-05-14, 19:50:07" FileAge="1494784207012" FileType="45637" CompNumb="12" />
+      <File Name="Documentation/test_101v.txt" FileDate="2017-05-16, 20:57:24" FileAge="1494961044086" FileType="3072" />
+      <File Name="Generated_Code/SPI.c" FileDate="2017-05-16, 17:56:45" FileAge="1494950205038" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/rf_ce.c" FileDate="2017-05-14, 19:50:07" FileAge="1494784207017" FileType="45637" CompNumb="10" />
+      <File Name="Documentation/test_101v_Settings.xml" FileDate="2017-05-16, 20:57:24" FileAge="1494961044077" FileType="3072" />
+      <File Name="Sources/main.c" FileDate="2017-05-16, 20:57:21" FileAge="1494961041720" FileType="128" />
+      <File Name="Generated_Code/led.h" FileDate="2017-05-16, 20:57:24" FileAge="1494961044031" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/led.c" FileDate="2017-05-16, 20:57:24" FileAge="1494961044034" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2017-05-14, 19:39:45" FileAge="1494783585034" FileType="45637" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.prm" FileDate="2017-05-14, 19:39:45" FileAge="1494783585056" FileType="8" CompNumb="8" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2017-05-14, 19:39:45" FileAge="1494783585038" FileType="45637" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2017-05-16, 20:34:22" FileAge="1494959662265" FileType="45637" CompNumb="8" />
+      <File Name="Documentation/test_101v_SIGNALS.txt" FileDate="2017-05-16, 20:57:24" FileAge="1494961044042" FileType="3072" />
+      <File Name="Generated_Code/rf_irq.h" FileDate="2017-05-14, 19:50:07" FileAge="1494784207016" FileType="45637" CompNumb="11" />
+      <File Name="Sources/Events.h" FileDate="2017-05-16, 20:34:22" FileAge="1494959662268" FileType="131328" />
+      <File Name="Generated_Code/RTC.h" FileDate="2017-05-16, 20:34:22" FileAge="1494959662250" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/rf_irq.c" FileDate="2017-05-14, 19:50:07" FileAge="1494784207014" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2017-05-14, 19:39:45" FileAge="1494783585042" FileType="45637" />
+      <File Name="Sources/Events.c" FileDate="2017-05-14, 19:39:45" FileAge="1494783585063" FileType="131328" />
+      <File Name="Generated_Code/RTC.c" FileDate="2017-05-16, 20:34:22" FileAge="1494959662249" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2017-05-14, 19:52:56" FileAge="1494784376788" FileType="45637" CompNumb="8" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>22</CodeGenReference>
+</CodeGenerationInfo>
