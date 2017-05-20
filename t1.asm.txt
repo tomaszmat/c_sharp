@@ -1,0 +1,44 @@
+> .include "m8535def.inc"
+> 
+> .org 0x000
+> rjmp reset
+> 
+> .org 0x009
+> rjmp czas
+> 
+> reset:
+> 
+> //inicjalizacja stosu
+> ldi r16, low(ramend)
+> out spl, r16
+> ldi r16, high(ramend)
+> out sph, r16
+> 
+> 
+> 
+> 
+> //ustawienie a jako wejœcie
+> ldi r16, $ff
+> out ddrA, r16
+> 
+> ldi r21, 0b00010011
+> ldi r18, 0b00000001
+> 
+> out timsk, r18
+> 
+> ldi r17, 0b00000101
+> out tccr0, r17
+> sei // enable global interrupt
+> 
+> start:
+>     out portA, R20
+>     rjmp start
+> 
+> 
+> czas:
+>     dec R21
+>     brne koniec
+>         com r20
+>         ldi r21, 0b00010011
+>         koniec:
+>             reti
